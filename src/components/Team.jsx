@@ -1,25 +1,20 @@
-import isaac from "../Assests/isaac.jpg"
-import tebify from "../Assests/tebify.jpg"
-import esther from "../Assests/esther.jpg"
-import damilola from "../Assests/damilola.jpg"
-import peter from "../Assests/peter.jpg"
+import isaac from "../Assests/isaac.jpg";
+/* import tebify from "../Assests/tebify.jpg";
+import esther from "../Assests/esther.jpg";
+import damilola from "../Assests/damilola.jpg"; */
+import peter from "../Assests/peter.jpg";
 
-import mohpheth from "../Assests/mohpheth.jpg"
+import mohpheth from "../Assests/mohpheth.jpg";
 
 export const team = [
   {
     id: "1",
-    pic: (
-      <img
-        src={isaac}
-        alt="..."
-             />
-    ),
-    name:"Isaac",
+    pic: <img src={isaac} alt="..." />,
+    name: "Isaac",
     position: "Founder",
-    role: " Web2/web3 developer"
+    role: " Web2/web3 developer",
   },
-  {
+  /* {
     id: "2",
     pic: (
       <img
@@ -30,7 +25,7 @@ export const team = [
     ),
     name:"Justice",
      role: " Fullstack developer "
-  },
+  }, 
   {
     id: "3",
     pic: (
@@ -55,36 +50,18 @@ export const team = [
     ),
     name:"Damilola",
      role: " Frontend developer "
-  },
-  
- 
-
+  },*/
   {
-    id: "6",
-    pic: (
-      <img
-        src={peter}
-        alt="..."
-       
-      />
-    ),
-    name:"Peter",
-     role: " Fullstack developer "
+    id: "2",
+    pic: <img src={peter} alt="..." />,
+    name: "Peter",
+    role: " Fullstack developer ",
   },
 
   {
-    id: "4",
-    pic: (
-      <img
-        src={mohpheth}
-        alt="..."
-       
-      />
-    ),
-    name:"Mohpheth",
-     role: "Software Engineer"
+    id: "3",
+    pic: <img src={mohpheth} alt="..." />,
+    name: "Mohpheth",
+    role: "Software Engineer",
   },
-
-  
- 
 ];

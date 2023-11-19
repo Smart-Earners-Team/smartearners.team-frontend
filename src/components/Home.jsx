@@ -18,7 +18,7 @@ const Home = () => {
     centerMode: true,
     infinite: true,
     centerPadding: "60px",
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     speed: 100,
     autoplaySpeed: 2000,
