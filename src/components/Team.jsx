@@ -3,6 +3,7 @@ import isaac from "../Assests/isaac.jpg";
 import esther from "../Assests/esther.jpg";
 import damilola from "../Assests/damilola.jpg"; */
 import peter from "../Assests/peter.jpg";
+import daniel from "../Assests/daniel.jpg";
 
 import mohpheth from "../Assests/mohpheth.jpg";
 
@@ -12,7 +13,7 @@ export const team = [
     pic: <img src={isaac} alt="..." />,
     name: "Isaac",
     position: "Founder",
-    role: " Web2/web3 developer",
+    role: "Fullstack Developer",
   },
   /* {
     id: "2",
@@ -55,13 +56,18 @@ export const team = [
     id: "2",
     pic: <img src={peter} alt="..." />,
     name: "Peter",
-    role: " Fullstack developer ",
+    role: " Fullstack Developer ",
   },
-
   {
     id: "3",
     pic: <img src={mohpheth} alt="..." />,
     name: "Mohpheth",
     role: "Software Engineer",
+  },
+  {
+    id: "4",
+    pic: <img src={daniel} alt="..." />,
+    name: "Daniel",
+    role: "Frontend Engineer",
   },
 ];

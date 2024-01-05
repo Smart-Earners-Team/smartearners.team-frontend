@@ -95,7 +95,8 @@ const Home = () => {
             <br /> Give us a chance to prove to you that quality, accuracy and
             speed of delivery are as important to us as they are to you and your
             project. We've been there and done it. when you choose us, you'll
-            get the benefit of 20+ years experience in providing smart soluions.
+            get the benefit of 20+ years experience in providing smart
+            solutions.
           </p>
         </div>
       </div>
